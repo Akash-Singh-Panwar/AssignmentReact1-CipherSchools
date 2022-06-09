@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(214, 214, 245);
+}
+#navItems{
+    /* background-color: bisque; */
+    width: 100%;
+    z-index: 1;
+    position :absolute
+}
+#items{
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+#login{
+    font-size: 150%;
+}
+#icon{
+    font-size: 200%;
+}
+#shape{
+    width: 42%;
+    padding-top: 42%;
+    background-color: rgb(69, 139, 237);
+    border-bottom-right-radius: 100%;
+    position: absolute;
+}
+input{
+    border: 0px;
+    border-bottom: 2px solid rgb(148, 145, 145);
+    padding: 0;
+    margin-top: 0;
+    background-color: rgba(255, 255, 255, 0);
+}
+#signIn{
+    background-color: rgba(255, 255, 255, 0.889);
+    
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    width: 23rem;
+    height: 30rem;
+
+    border-radius: 5%;
+}
+
+#signIn2{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5%;
+    height: 25rem;
+}
+#signInText{
+    text-align: center;
+    font-size: 200%;
+}
+button{
+    background-color: rgb(69, 139, 237);
+    color: aliceblue;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+}
+
+#menu{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 83%;
+    height: 40rem;
+    width: 15rem;
+
+    background-color: rgb(152, 208, 246);
+
+    row-gap: 9%;
+
+    border-radius: 15px;
+
+
+    /* display: none; */
+}
